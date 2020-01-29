@@ -11,5 +11,4 @@ import cucumber.api.junit.Cucumber;
 	plugin= {"pretty","json:target/cucumber.json"}
 )
 public class TestRunner {
-	
 }
