@@ -25,7 +25,6 @@ public class Register {
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 	}
 @When("^user click signup$")
-
 public void userclicksignup() 
 {
 driver.findElement(By.xpath("//a[@href='RegisterUser.htm']")).click();	
